@@ -14,6 +14,5 @@
 // console.log(myarr.indexOf(5));//count from 0 index which array find first
 // let myarr = ["apple", "banana","guava","orang","pinapple", "charry"];
 // console.log(myarr.indexOf("guava", "charry"));//wo search karega ki guava kitna index main hai or ush apple( mean 0 index) index se search karega ki charry kitna dur par hai(indexOf("searchIndex", fromIndex));
-
 console.log(myarr);
 
