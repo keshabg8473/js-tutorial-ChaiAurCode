@@ -32,7 +32,7 @@
 // console.log(arr.flat(Infinity));//they take infinity of the depth of nested array
 
 // let fruits = ["apple","banana","orang","guava","papaya"];
-// console.log(Array.isArray(fruits));//Array.isArray() is a crucial tool in JavaScript for accurately determining whether a given value is an array or not. 
+// console.log(Array.isArray(fruits));//Array.isArray() is a crucial tool in JavaScript for accurately determining whether a given value or variable is an array or not. 
 //Safe Array Operations: Before performing array-specific operations like iteration, slicing, or splicing, you can use Array.isArray() to ensure you're working with an actual array. This prevents potential errors and unexpected behavior.
 
 //The Array.from() method is used to create a new array from any iterables like array, objects, and strings.
@@ -50,6 +50,12 @@
 // console.log(Array.from(Object.values(obj)));//convert value into array
 // console.log(Array.from(Object.entries(obj)));//This part takes an object obj and returns an array of key-value pairs. Each pair is represented as an array of two elements: [key, value].
 
+//convert defferent variable into array
+// let var1 = 100;
+// let var2 = " keshab";
+// let var3 = 44;
+// let var4 = "arjun";
+// console.log(Array.of(var1,var2,var3,var4));
 
 
 
