@@ -92,7 +92,7 @@
 // let {name, age, country = "india"} = obj;//object default(potentially missing properties we can set default values) values(new properties assign)
 // console.log(name);
 // console.log(age);
-// console.log(country);
+// console.log(country); 
 
 // let {name : n, age : a} = obj;//object properties alias(rename)
 // console.log(n);
