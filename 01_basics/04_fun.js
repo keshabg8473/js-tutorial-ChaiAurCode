@@ -35,11 +35,18 @@
 //     oquepation: "software development"
 // }
 
-function printObjectValue(passObjectPro){
-    console.log(`myname is ${passObjectPro.name} and i am pasonated about ${passObjectPro.oquepation}`);
+// function printObjectValue(passObjectPro){
+//     console.log(`myname is ${passObjectPro.name} and i am pasonated about ${passObjectPro.oquepation}`);
+// }
+// // printObjectValue(obj)//this way first create an object and then call it 
+// printObjectValue({
+//     name : "ariyan",
+//     oquepation:"ai expart"
+// })
+
+//----------------------------------access array in function-------------
+let mynewarray = [122, 324, 1231, 200, 600];
+function accessarryval(getarray){
+    return getarray[3];
 }
-// printObjectValue(obj)//this way first create an object and then call it 
-printObjectValue({
-    name : "ariyan",
-    oquepation:"ai expart"
-})
+console.log(accessarryval(mynewarray));
