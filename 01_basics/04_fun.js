@@ -19,7 +19,7 @@
 // }
 // // console.log(userlogin("keshab"));//simple return value
 // // console.log(userlogin());//when we don't pass the value it print undefind;
-// console.log(userlogin());//when userlogin in empty print defind value but when we pass the argument it overwrite the defind value
+// console.log(userlogin());//when we define value and when we pass the argument it overwrite the defind value
 
 //------------------------------...rest operator----------------
 
@@ -45,8 +45,8 @@
 // })
 
 //----------------------------------access array in function-------------
-let mynewarray = [122, 324, 1231, 200, 600];
-function accessarryval(getarray){
-    return getarray[3];
-}
-console.log(accessarryval(mynewarray));
+// let mynewarray = [122, 324, 1231, 200, 600];
+// function accessarryval(getarray){
+//     return getarray[3];
+// }
+// console.log(accessarryval(mynewarray));
