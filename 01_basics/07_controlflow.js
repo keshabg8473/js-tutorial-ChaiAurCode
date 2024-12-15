@@ -112,7 +112,7 @@
 // if(Object.keys(emptyobj).length == 0){
 //     console.log("object is empty");
 // }
-// true value return----------------when we compare--------important for interview quition.
+// true value return----------------when we compare--------important for interview quition.---skip learn after
 // false == 0//---true
 // false == ' '//----true
 // o == " "//----true
@@ -127,4 +127,32 @@
 // val1 = null ?? 10 ?? 20// it return 10 value cause left-hand side is null so it will be 10 
 // val1 = null ?? undefined;
 // console.log(val1);
-// ----------------terniary operator-----------------
+// ----------------terniary operator-----------------The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. teranry operator is the shortcut of if-else statement
+// let's example we wrtie if-else statement like this
+// let mark = 80;
+// if(mark > 90){
+//     console.log("good mark");
+// }else{
+//     console.log("mark is lessthen 90");
+    
+// }//how we can write shortcut for turnary operator
+
+// let mark = 40;
+// let passMark = (mark > 90) ? " good mark" : " lessthen 90";
+// console.log(passMark);
+// -------------------------------
+//like if-else-else if statement--------------------
+// let mark = 40;
+// let passMark = (mark >50) ? "good mark" : 
+//                         (mark > 70) ? " vary good" :
+//                         (mark > 35) ? " pass mark" : "fail";
+// console.log("passmark");
+// -------------------or--------------// 
+//how we can write nested ternary operator--------------------
+// let mark = 40;
+// let passMark = (mark >35) ? 
+//                         (mark > 30 ? " pass mark" : " fail") :
+
+//                         " fail";
+                
+// console.log(passMark);
