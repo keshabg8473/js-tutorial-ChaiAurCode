@@ -97,6 +97,3 @@
 // let {name : n, age : a} = obj;//object properties alias(rename)
 // console.log(n);
 // console.log(a);
-//-------------------------------------------------
-
-
