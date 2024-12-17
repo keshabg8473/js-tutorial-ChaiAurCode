@@ -23,7 +23,7 @@
 // let arrowfun = (num1,num2) => (num1 + num2);//  implicit return
 // console.log(arrowfun(2,3));
 // -----------------------just understand
-// let arrowfun = () =>({//when we need to declare object in arrow function
+// let arrowfun = () =>({//object declare in arrow function-----------when we used scope arrow function it's return objects
 //     name:"keshab"
 // });
 // console.log(arrowfun(1,5));

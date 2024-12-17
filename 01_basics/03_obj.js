@@ -28,7 +28,7 @@
 //     }
 // }
 // console.log(obj.fullname.firstname.lastname);//this type  we can access the properties of the nested object
-//----------------------------------------------------------------//
+//---------------------------------------------------------------->
 // how marge object 
 // let obj1 = {
 //    a: 1,

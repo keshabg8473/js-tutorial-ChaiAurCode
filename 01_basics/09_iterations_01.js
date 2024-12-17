@@ -98,7 +98,7 @@ let arrayobj = [
 // arrayobj.forEach((items,index,array)=>{
 //     // console.log(items.language);//i can iterate all object properties of the array
 // })
-
+// -----------------------------------------------------------------
 
 
 
