@@ -14,7 +14,8 @@
 // let newnumber = mynumber.map((num1)=> num1 * 10).map((num2)=> num2 + 1).filter((num3)=> num3 > 40);
 // console.log(newnumber);
 // ------------------------------------> reduce method <-----------------------------------
-// The reduce() method in JavaScript is a powerful array method that iterates over an array and accumulates its elements into a single value. It's a fundamental tool for performing operations like summing numbers, flattening arrays, grouping objects, and much more.-----------> reduce is a pre-bult function isiliye jobi result hota hai ushe wo autometacally accumulate main assign ho jata hai
+// The reduce() method in JavaScript is a powerful array method that iterates over an array and accumulates its elements into a single value. It's a fundamental tool for performing operations like summing numbers, flattening arrays, grouping objects, and much more.-----------> reduce is a pre-built function isiliye jobi result hota hai ushe wo autometacally accumulate main assign ho jata hai
+// WHEN TO USED THE REDUCE METHOD---- as shown in above the reduce method recommended when you need to hava a single value return form iteration over your array.
 
 // -------->The reduce() method returns a single value: the function's accumulated result.
 // -------->The reduce() method does not execute the function for empty array elements.

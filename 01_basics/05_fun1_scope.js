@@ -1,4 +1,4 @@
-// // scope basics----------------------------------
+//---------------------------->scope basics<----------------------------------
 // Local Scope:
 // Defined within a function: Variables declared inside a function have local scope.   
 // Accessible within the function: These variables can be accessed anywhere within that function, including nested functions.   
