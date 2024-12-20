@@ -81,3 +81,10 @@
 //         return accumulator;
 // },{});
 // console.log(groupingItems);
+
+//--------------------------------> map filter and reduce <---------------------------
+// difference between them 
+
+    
+
+
